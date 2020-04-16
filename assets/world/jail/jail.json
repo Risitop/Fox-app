@@ -1,0 +1,52 @@
+{"frames": {
+
+"bed.png":
+{
+	"frame": {"x":0,"y":0,"w":64,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":128},
+	"sourceSize": {"w":64,"h":128}
+},
+"lamp.png":
+{
+	"frame": {"x":64,"y":0,"w":64,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":192},
+	"sourceSize": {"w":64,"h":192}
+},
+"room.png":
+{
+	"frame": {"x":0,"y":192,"w":960,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":512},
+	"sourceSize": {"w":960,"h":512}
+},
+"table.png":
+{
+	"frame": {"x":128,"y":0,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+"ventilation.png":
+{
+	"frame": {"x":192,"y":0,"w":256,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":64},
+	"sourceSize": {"w":256,"h":64}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jail.png",
+	"format": "RGBA8888",
+	"size": {"w":960,"h":704},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0374d992f8b85aa5fee1a372bfb72bf4:b055a45baa826950ea9b61b7bd3e8419:5aac996621bfcd8ac54f680ce571121e$"
+}
+}

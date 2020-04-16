@@ -1,0 +1,127 @@
+{
+  "height": 8,
+  "width": 15,
+  "atlases": [
+      "assets/hero/hero.json",
+      "assets/world/jail/jail.json"
+  ],
+  "level": [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 0, 0, 4, 0, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  ],
+  "tiles": [
+    null,
+    {
+      "atlas": null,
+      "url": null,
+      "n_sprites": 0,
+      "delay": 0,
+      "sp_width": 64,
+      "sp_height": 64,
+      "hb_width": 64,
+      "hb_height": 64,
+      "left_margin": 0,
+      "top_margin": 0
+    },
+    {
+      "atlas": "assets/world/jail/jail.json",
+      "url": "bed.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "sp_width": 64,
+      "sp_height": 128,
+      "hb_width": 64,
+      "hb_height": 93,
+      "left_margin": 0,
+      "top_margin": 35,
+      "applied_filters": {
+        "bevel": {
+          "thickness": 1.5
+        }
+      }
+    },
+    {
+      "atlas": "assets/world/jail/jail.json",
+      "url": "ventilation.png",
+      "n_sprites": 4,
+      "delay": 1,
+      "sp_width": 64,
+      "sp_height": 64,
+      "hb_width": 21,
+      "hb_height": 56,
+      "left_margin": 0,
+      "top_margin": 4,
+      "applied_filters": {
+        "bevel": {
+          "thickness": 1.5
+        }
+      }
+    },
+    {
+      "atlas": "assets/world/jail/jail.json",
+      "url": "table.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "sp_width": 64,
+      "sp_height": 64,
+      "hb_width": 64,
+      "hb_height": 30,
+      "left_margin": 0,
+      "top_margin": 34,
+      "applied_filters": {
+        "bevel": {
+          "thickness": 1.5
+        }
+      }
+    }
+  ],
+  "backgrounds": {
+    "room": {
+      "atlas": "assets/world/jail/jail.json",
+      "url": "room.png",
+      "layer": 0,
+      "sp_width": 960,
+      "sp_height": 512,
+      "n_sprites": 1,
+      "delay": 1,
+      "applied_filters": {
+        "brightness": {
+          "modifier": 0.5
+        },
+        "lighting": {}
+      }
+    }
+  },
+  "decorations": {
+    "lamp": {
+      "atlas": "assets/world/jail/jail.json",
+      "url": "lamp.png",
+      "x": 448,
+      "y": 128,
+      "n_sprites": 1,
+      "delay": 1,
+      "sp_width": 64,
+      "sp_height": 192,
+      "light_source": {
+        "light_intensity": 600.0,
+        "sp_x": 30.5,
+        "sp_y": 155,
+        "light_color": "0xffffbb"
+      },
+      "applied_filters": {
+        "luminance": {
+          "light_gain": 4.0
+        },
+        "bevel": {
+          "thickness": 1.5
+        }
+      }
+    }
+  }
+}

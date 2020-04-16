@@ -1,0 +1,20 @@
+{"frames": {
+
+"lamp.png":
+{
+	"frame": {"x":0,"y":0,"w":64,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":192},
+	"sourceSize": {"w":64,"h":192}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "decorations.png",
+	"format": "RGBA8888",
+	"size": {"w":64,"h":192},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:97df469bf8c5098a86d55d5f22876096:44a39e2db223bf08583fb5fe99ddf555:22a5a567b1672d7e1efe17a875d63e89$"
+}
+}

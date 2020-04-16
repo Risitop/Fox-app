@@ -1,0 +1,36 @@
+{"frames": {
+
+"gray_gradient.png":
+{
+	"frame": {"x":0,"y":0,"w":960,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":512},
+	"sourceSize": {"w":960,"h":512}
+},
+"pipes.png":
+{
+	"frame": {"x":0,"y":512,"w":1200,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":512},
+	"sourceSize": {"w":1200,"h":512}
+},
+"wires.png":
+{
+	"frame": {"x":0,"y":1024,"w":1344,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1344,"h":512},
+	"sourceSize": {"w":1344,"h":512}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "backgrounds.png",
+	"format": "RGBA8888",
+	"size": {"w":1344,"h":1536},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0e4576a4052d0715623be09261ce3349:120f434e9fa8037ba5731666cb2f75a7:f1d160bc8f29cda58a3095e4596a0f13$"
+}
+}

@@ -1,0 +1,3 @@
+class Lamp extends Decoration {
+  
+}

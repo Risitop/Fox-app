@@ -1,0 +1,88 @@
+{
+  "height": 8,
+  "width": 30,
+  "atlases": [
+      "assets/hero/hero.json",
+      "assets/world/platforms/platforms.json",
+      "assets/world/backgrounds/backgrounds.json"
+  ],
+  "level": [
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1],
+    [0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  ],
+  "tiles": [
+    null,
+    {
+      "atlas": "assets/world/platforms/platforms.json",
+      "url": "wood.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "width": 64,
+      "height": 23,
+      "left_margin": 0,
+      "top_margin": 0
+    },
+    {
+      "atlas": "assets/world/platforms/platforms.json",
+      "url": "wood_l.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "width": 64,
+      "height": 23,
+      "left_margin": 0,
+      "top_margin": 0
+    },
+    {
+      "atlas": "assets/world/platforms/platforms.json",
+      "url": "wood_r.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "width": 64,
+      "height": 23,
+      "left_margin": 0,
+      "top_margin": 0
+    },
+    {
+      "atlas": "assets/world/platforms/platforms.json",
+      "url": "ground.png",
+      "n_sprites": 1,
+      "delay": 1,
+      "width": 64,
+      "height": 64,
+      "left_margin": 0,
+      "top_margin": 0
+    }
+  ],
+  "backgrounds": {
+    "gray_gradient.png": {
+      "atlas": "assets/world/backgrounds/backgrounds.json",
+      "layer": 0,
+      "width": 960,
+      "height": 512,
+      "n_sprites": 1,
+      "delay": 1
+    },
+    "pipes.png": {
+      "atlas": "assets/world/backgrounds/backgrounds.json",
+      "layer": 0.25,
+      "width": 1200,
+      "height": 512,
+      "n_sprites": 1,
+      "delay": 1
+    },
+    "wires.png": {
+      "atlas": "assets/world/backgrounds/backgrounds.json",
+      "layer": 0.4,
+      "width": 1344,
+      "height": 512,
+      "n_sprites": 1,
+      "delay": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "vertex": {
+    "id": "vertex",
+    "url": "src/filters/vertex/default.vert",
+    "js": null
+  },
+  "bevel": {
+    "id": "bevel",
+    "url": "src/filters/bevel/bevel.frag",
+    "js": "src/filters/bevel/BevelFilter.js"
+  },
+  "brightness": {
+    "id": "brightness",
+    "url": "src/filters/brightness/brightness.frag",
+    "js": "src/filters/brightness/BrightnessFilter.js"
+  },
+  "luminance": {
+    "id": "luminance",
+    "url": "src/filters/luminance/luminance.frag",
+    "js": "src/filters/luminance/LuminanceFilter.js"
+  },
+  "lighting": {
+    "id": "lighting",
+    "url": "src/filters/lighting/lighting.frag",
+    "js": "src/filters/lighting/LightingFilter.js"
+  },
+  "shadow": {
+    "id": "shadow",
+    "url": "src/filters/shadow/shadow.frag",
+    "js": "src/filters/shadow/ShadowFilter.js"
+  }
+}
