@@ -1,3 +1,3 @@
 # Fox-app
 
-Custom game engine
+Custom (unfinished) game engine developed in JS during COVID outbreak.
